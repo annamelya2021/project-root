@@ -1,0 +1,28 @@
+# 🔒 Загальні системні файли
+.DS_Store
+Thumbs.db
+
+# 🔧 Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 🔧 Env файли (містять токени, ключі тощо)
+*.env
+
+# 🧼 лог-файли
+*.log
+
+# 🔨 Vite + React (build-файли)
+client/dist/
+client/.vite/
+
+# 🔨 Express (build або кеші)
+server/node_modules/
+
+# 💻 IDE / редактори
+.vscode/
+.idea/
+*.swp
+*.swo
